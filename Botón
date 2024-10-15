@@ -1,0 +1,12 @@
+void dibuja (){
+   rect(110,100,90,90); 
+  if (mousePressed){
+    if (mouseButton == RIGHTBUTTON){
+      background(193,19,211);
+    }
+  }
+}
+
+void main (){
+  animate (dibuja);
+}
